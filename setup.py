@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 setup(
   name = 'spbdl',
   packages = ['spbdl'],
-  version = '1.1.1', 
+  version = '1.1.2', 
   license='MIT',
   description = 'Download images from shitpostbot database',
   long_description=long_description,
@@ -19,13 +19,10 @@ setup(
           'beautifulsoup4',
       ],
   classifiers=[
-    'Development Status :: 3 - Alpha',
+    'Development Status :: 4 - Beta',
     'Intended Audience :: Developers',
     'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: MIT License',
-    'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.4',
-    'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
