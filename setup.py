@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 setup(
   name = 'spbdl',
   packages = ['spbdl'],
-  version = '1.1.0', 
+  version = '1.1.1', 
   license='MIT',
   description = 'Download images from shitpostbot database',
   long_description=long_description,

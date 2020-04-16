@@ -1,3 +1,10 @@
+<div align="center">
+  <p align="center">
+	  <a href="https://pypi.org/project/spbdl/"><img src="https://img.shields.io/pypi/v/spbdl.svg" alt="pypi"></a>
+	  <a href="https://pypi.python.org/pypi/spbdl/"><img src="https://img.shields.io/pypi/pyversions/spbdl.svg" /></a>
+  </p>
+</div>
+
 # SPBDL
 
 Download images (custom/random) from shitpostbot database!
