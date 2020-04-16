@@ -27,8 +27,8 @@ def dl(url):
 #Random image download
 url = spbdl.randImg()
 #Queried image download:
-url2 = getImg("epic") #Uses the default arguments for getting image url
-url3 = getImg("epic",sort='top', order='created_at',direction="ASC") #Passes custom arguments for getting image url
+url2 = spbdl.getImg("epic") #Uses the default arguments for getting image url
+url3 = spbdl.getImg("epic",sort='top', order='created_at',direction="ASC") #Passes custom arguments for getting image url
 dl(url)
 #dl(url2)
 #dl(url3)

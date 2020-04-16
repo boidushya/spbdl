@@ -1,11 +1,10 @@
-from distutils.core import setup
+from setuptools import setup
 with open("README.md", "r") as fh:
     long_description = fh.read()
-
 setup(
   name = 'spbdl',
   packages = ['spbdl'],
-  version = '1.0.0', 
+  version = '1.1.0', 
   license='MIT',
   description = 'Download images from shitpostbot database',
   long_description=long_description,

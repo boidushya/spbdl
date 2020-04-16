@@ -1,2 +1,7 @@
 
-dist/spbdl-1.0.0.tar.gz
+dist/*
+spbdl.egg-info/dependency_links.txt
+spbdl.egg-info/PKG-INFO
+spbdl.egg-info/requires.txt
+spbdl.egg-info/SOURCES.txt
+spbdl.egg-info/top_level.txt
