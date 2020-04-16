@@ -28,8 +28,8 @@ def getLink(query,sort = 'random', order='total_rating',direction="DESC"):
             fin = result[0]
         return 'https://www.shitpostbot.com' + fin
 
-def getImg(cmd,sort='random'):
-    url = getLink(cmd,sort)
+def getImg(cmd,sort='random', order='total_rating',direction="DESC"):
+    url = getLink(cmd,sort,order,direction)
     response = urllib.request.urlopen(url)
     soup = bs(response,'html.parser')
     for div in soup.findAll('div', attrs={'style':'padding-top: 15px'}):
