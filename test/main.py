@@ -1,5 +1,4 @@
 import spbdl
-import requests
 
 url = spbdl.randImg()
 url2 = spbdl.getImg("epic") #Uses the default arguments for getting image url
