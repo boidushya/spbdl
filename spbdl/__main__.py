@@ -15,7 +15,7 @@ def randImg():
 def getLink(query,review="accepted",sort = 'random', order='total_rating',direction="DESC"):
     url = f"https://www.shitpostbot.com/gallery/sourceimages?review_state={review}&query={query}&order={order}&direction={direction}"
     response = urllib.request.urlopen(url)
-    if r.status != 200:
+    if response.status != 200:
         raise HttpError("Failed to load given website. Check your review,sort,order,direction properly. This may also mean that the spb website is down.")
     soup = bs(response,'html.parser')
     result = []
