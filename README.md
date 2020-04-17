@@ -37,7 +37,7 @@ def dl(url):
 url = spbdl.randImg()
 #Queried image download:
 url2 = spbdl.getImg("epic") #Uses the default arguments for getting image url
-url3 = spbdl.getImg("epic",sort='top', order='created_at',direction="ASC") #Passes custom arguments for getting image url
+url3 = spbdl.getImg("epic",review="accepted",sort='top', order='created_at',direction="ASC") #Passes custom arguments for getting image url
 dl(url)
 #dl(url2)
 #dl(url3)
@@ -47,6 +47,13 @@ dl(url)
 
 * ##### query:
 	* `<your search query>` (required)
+* ##### review:
+	* `accepted` (default)
+	* `awaiting-yes`
+	* `pending`
+	* `awaiting-no`
+	* `denied`
+	* `all`
 * ##### sort:
 	* `random` (default)
 	* `top`
